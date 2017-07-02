@@ -1,0 +1,48 @@
+git status
+
+
+git init(初始化为一个仓库)
+
+git add a.md(提交到仓库里)  （相当于缓存）
+
+git commit -m "first commit" （正式提交）
+
+git log （查看commi 记录）
+
+git add & git commit
+
+git branch （查看分支）
+
+git branch wangsheng (创建分支 wangsheng)
+
+git checkout wangsheng (切换到分支 wangsheng)
+
+git checkout -b wangsheng (创建并切换到分支 wangsheng)
+
+git merge wangsheng (先切换到master 分支，再合并 wangsheng 分支)
+
+git branch -d wangsheng (删除分支wangsheng)
+
+git branch -D wangsheng (强制删除分支wangsheng)
+
+
+git tag  (查看标签)
+
+git tag v1.0 (新建标签 V1.0)
+
+git checkout v1.0 (切换到标签V1.0) 
+
+SSH (加密登录)
+
+ssh -keygen -t rsa
+
+(连续输入三次回车，生成id_rsa (密钥)和 id_rsa.pub （公钥），在~/.ssh 里面)
+
+git clone git@github.com:wangshengXX/HelloWorld.git (把仓库复制到本地)
+
+git push origin master (进行提交)
+
+提交前：
+git config —global user.name "wangsheng"
+git config —global user.email "1025306551@qq.com"
+
